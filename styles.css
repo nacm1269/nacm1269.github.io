@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* HEADER SECTION */
+header {
+  background-color: #f76b8a;
+  display: flex;
+}
+
+section {
+  width: 900px;
+  margin: 0 auto;
+}
+
+/* ABOUT ME SECTION */
+
+
+
+
+
+/* PORTFOLIO SECTION */
+
+
+
+
+
+/* FOOTER SECTION */
