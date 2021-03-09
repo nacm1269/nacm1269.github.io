@@ -8,25 +8,57 @@ body {
 
 /* HEADER SECTION */
 header {
-  background-color: #fcfefe;
+  /* background-color: #DE5940; */
   display: flex;
-}
 
+}
+header section {
+  background: url("header-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 section {
   width: 900px;
   margin: 0 auto;
 }
 
+header h1 {
+  color: #F48827;
+  font-family: 'Satisfy', cursive;
+  font-size: 40px;
+  margin: 0;
+  padding: 10px 10px 0px;
+}
+
+header h2 {
+  color: ##A9EEFF;
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0px 10px 600px 10px;
+}
+
+header img {
+  width: 900px;
+ height: 1000px;
+ object-fit: cover;
+}
+
+.nav-links {
+  color: #4ecca3;
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Raleway', sans-serif;
+  padding: 100px 0;
+}
+
 /* ABOUT ME SECTION */
-
-
-
-
+.about-me-section {
+  background-color: #E76F51;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  padding: 100px 100px;
+}
 
 /* PORTFOLIO SECTION */
-
-
-
-
-
 /* FOOTER SECTION */
