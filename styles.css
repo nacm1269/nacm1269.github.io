@@ -8,7 +8,6 @@ body {
 
 /* HEADER SECTION */
 header {
-  /* background-color: #DE5940; */
   display: flex;
 }
 
@@ -66,9 +65,11 @@ header img {
 
 /* ABOUT ME SECTION */
 article h2 {
-  color: #ffffff;font-family: 'Satisfy', cursive;
+  color: #ffffff;
+  font-family: 'Satisfy', cursive;
   font-size: 2.5rem;
-  padding: 60px 0px;
+  padding: 30px 0px 60px 0px;
+  margin: 0;
 }
 
 .about-me-section {
@@ -79,6 +80,10 @@ article h2 {
   line-height: 150%;
   margin: 0 auto;
   padding: 75px 75px;
+}
+
+.about-me-text {
+  padding: 25px 0;
 }
 
 .about-me-icons {
@@ -92,12 +97,30 @@ article h2 {
 }
 
 /* PORTFOLIO SECTION */
+.portfolio-title {
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5rem;
+  margin-top: 0;
+  padding-bottom: 35px;
+  padding-left: 75px;
+  width: 100%;
+}
+
 .portfolio {
   background-color: #76B3BF;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 100px 25px;
+}
+
+.project-image {
+  width: 300px;
+  height: 200px;
+}
+
+.portfolio-text {
+  width: 300px;
 }
 
 article {
@@ -117,11 +140,12 @@ footer {
 
 .contact-me {
   font-family: 'Satisfy', cursive;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .contact-links {
   display: flex;
+  flex-wrap: wrap;
   font-family: 'Raleway', sans-serif;
   justify-content: space-between;
   padding: 50px 0;
@@ -130,11 +154,23 @@ footer {
 
 .contact-links a {
   color: #ffffff;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   text-decoration: none;
+}
+
+.contact-links a:hover {
+  color: #76B3BF;
 }
 
 .email-address {
   color: black;
   text-decoration: none;
+}
+
+.copyright-text {
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: center;
+  margin: 0;
+  padding-top: 50px;
 }
