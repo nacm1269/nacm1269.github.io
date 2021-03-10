@@ -25,16 +25,17 @@ section {
 }
 
 header h1 {
-  color: #E75513;
+  color: #ffffff;
   font-family: 'Satisfy', cursive;
-  font-size: 40px;
+  font-size: 3.2rem;
   margin: 0;
   padding: 10px 10px 0px;
 }
 
 header h2 {
-  color: ##A9EEFF;
+  color: #A9EEFF;
   font-family: 'Raleway', sans-serif;
+  font-size: 1.8rem;
   margin: 0;
   padding: 0px 10px 600px 10px;
 }
@@ -46,11 +47,19 @@ header img {
 }
 
 .nav-links {
-  color: #E75513;
+
   display: flex;
-  justify-content: space-around;
   font-family: 'Raleway', sans-serif;
+  font-size: 1.4rem;
+  justify-content: space-around;
   padding: 100px 0;
+
+}
+
+.nav-links a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 /* ABOUT ME SECTION */
@@ -63,28 +72,55 @@ header img {
   padding: 75px 75px;
 }
 
+.about-me-icons {
+  align-items: center;
+  display: flex;
+  font-size: 4rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 15px 5px;
+}
+
 /* PORTFOLIO SECTION */
 .portfolio {
-    background-color: #2D99B7;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    padding: 100px 25px;
+  background-color: #76B3BF;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 100px 25px;
 }
 
 article {
   font-family: 'Raleway', sans-serif;
+  padding: 25px 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* FOOTER SECTION */
+footer {
+  background-color: #E75513;
+  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  padding: 75px 75px;
+}
+
+.contact-links{
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  justify-content: space-between;
+  padding: 50px 0;
+  text-decoration: none;
+}
+
+.contact-links a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.email-address {
+  color: black;
+  text-decoration: none;
+}
