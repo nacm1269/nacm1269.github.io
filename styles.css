@@ -8,7 +8,6 @@ body {
 
 /* HEADER SECTION */
 header {
-  /* background-color: #DE5940; */
   display: flex;
 }
 
@@ -47,13 +46,11 @@ header img {
 }
 
 .nav-links {
-
   display: flex;
   font-family: 'Raleway', sans-serif;
   font-size: 1.4rem;
   justify-content: space-around;
   padding: 100px 0;
-
 }
 
 .nav-links a {
@@ -62,14 +59,31 @@ header img {
   text-decoration: none;
 }
 
+.nav-links a:hover {
+  color: #F69C75;
+}
+
 /* ABOUT ME SECTION */
+article h2 {
+  color: #ffffff;
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5rem;
+  padding: 30px 0px 60px 0px;
+  margin: 0;
+}
+
 .about-me-section {
-  background-color: #E75513;
+  color: #ffffff;
+  background-color: #FB9449;
   font-family: 'Raleway', sans-serif;
-  font-size: 1.2rem;
-  line-height: 150%;
+  font-size: 1.5rem;
+  line-height: 180%;
   margin: 0 auto;
   padding: 75px 75px;
+}
+
+.about-me-text {
+  padding: 25px 0;
 }
 
 .about-me-icons {
@@ -82,12 +96,24 @@ header img {
   padding: 15px 5px;
 }
 
+.about-me-icons i {
+  padding: 10px;
+}
+
 /* PORTFOLIO SECTION */
+.portfolio-title {
+  font-family: 'Satisfy', cursive;
+  font-size: 3rem;
+  margin-top: 0;
+  padding-bottom: 35px;
+  padding-left: 50px;
+  width: 100%;
+}
+
 .portfolio {
   background-color: #76B3BF;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
   padding: 100px 25px;
 }
@@ -97,19 +123,38 @@ article {
   padding: 25px 20px;
 }
 
+.portfolio article {
+  width: 32%;
+}
+
+.portfolio article img {
+  width: 100%;
+}
+
+/* .project-article {
+  width: 32%;
+  margin: 10px;
+  min-width: 400px;
+} */
+
 /* FOOTER SECTION */
 footer {
-  background-color: #E75513;
+  background-color: #FB9449;
   color: #ffffff;
   font-family: 'Raleway', sans-serif;
   font-size: 1.2rem;
   margin: 0 auto;
-  padding: 75px 75px;
+  padding: 75px;
 }
 
-.contact-links{
+.contact-me {
+  font-family: 'Satisfy', cursive;
+  font-size: 3rem;
+}
+
+.contact-links {
   display: flex;
-  font-family: 'Raleway', sans-serif;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 50px 0;
   text-decoration: none;
@@ -117,10 +162,34 @@ footer {
 
 .contact-links a {
   color: #ffffff;
+  font-size: 2.2rem;
   text-decoration: none;
 }
 
+.contact-links a:hover {
+  color: #76B3BF;
+}
+
 .email-address {
-  color: black;
   text-decoration: none;
+}
+
+.copyright-text {
+  display: flex;
+  font-size: 0.8rem;
+  justify-content: center;
+  margin: 0;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 850px) {
+  .portfolio article {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .portfolio article {
+    width: 100%;
+  }
 }
