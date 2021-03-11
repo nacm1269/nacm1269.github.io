@@ -3,25 +3,23 @@
 }
 
 body {
-  margin: 0 auto;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* HEADER SECTION */
 header {
   display: flex;
-}
-
-header section {
+  flex-direction: column;
   background: url("header-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-section {
+  height: 800px;
   width: 100%;
   margin: 0 auto;
 }
+
 
 header h1 {
   color: #ffffff;
@@ -33,10 +31,8 @@ header h1 {
 
 header h2 {
   color: #A9EEFF;
-  font-family: 'Raleway', sans-serif;
   font-size: 1.8rem;
   margin: 0;
-  padding: 0px 10px 600px 10px;
 }
 
 header img {
@@ -46,8 +42,8 @@ header img {
 }
 
 .nav-links {
+  margin-top: auto;
   display: flex;
-  font-family: 'Raleway', sans-serif;
   font-size: 1.4rem;
   justify-content: space-around;
   padding: 100px 0;
@@ -68,14 +64,13 @@ article h2 {
   color: #ffffff;
   font-family: 'Satisfy', cursive;
   font-size: 2.5rem;
-  padding: 30px 0px 60px 0px;
   margin: 0;
+  padding: 30px 0px 60px 0px;
 }
 
 .about-me-section {
   color: #ffffff;
   background-color: #FB9449;
-  font-family: 'Raleway', sans-serif;
   font-size: 1.5rem;
   line-height: 180%;
   margin: 0 auto;
@@ -87,10 +82,10 @@ article h2 {
 }
 
 .about-me-icons {
-  align-items: center;
+  /* align-items: center; */
   display: flex;
   font-size: 4rem;
-  flex-direction: row;
+  /* flex-direction: row; */
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 15px 5px;
@@ -119,7 +114,6 @@ article h2 {
 }
 
 article {
-  font-family: 'Raleway', sans-serif;
   padding: 25px 20px;
 }
 
@@ -131,17 +125,10 @@ article {
   width: 100%;
 }
 
-/* .project-article {
-  width: 32%;
-  margin: 10px;
-  min-width: 400px;
-} */
-
 /* FOOTER SECTION */
 footer {
   background-color: #FB9449;
   color: #ffffff;
-  font-family: 'Raleway', sans-serif;
   font-size: 1.2rem;
   margin: 0 auto;
   padding: 75px;
@@ -175,9 +162,8 @@ footer {
 }
 
 .copyright-text {
-  display: flex;
+  text-align: center;
   font-size: 0.8rem;
-  justify-content: center;
   margin: 0;
   padding-top: 50px;
 }
