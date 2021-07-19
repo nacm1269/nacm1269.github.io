@@ -1,115 +1,216 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta charset="UTF-8">
-  <title>Nathan Muran</title>
-  <link rel="stylesheet" href="normalize.css" type="text/css">
-  <link type="text/css" rel="stylesheet" href="styles.css">
-  <!-- FONTS -->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Satisfy&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-  <!-- FONT AWESOME -->
-  <script src="https://kit.fontawesome.com/c6e95da7df.js" crossorigin="anonymous"></script>
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <!-- =====FONT AWESOME===== -->
+        <script src="https://kit.fontawesome.com/c6e95da7df.js" crossorigin="anonymous"></script>
 
-</head>
+        <title>Nathan's Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo" aria-role="Return to landing page"><img src="assets/img/nm.svg" alt="logo made up of initials"></a>
+                </div>
 
-<body>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+<!--                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>-->
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-  <!-- HEADER AND LINKS TO DIFFERENT SECTIONS -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-  <header>
+        <main class="l-main">
 
-      <h1>Nathan Muran</h1>
-      <h2>Full Stack Developer</h2>
-      <div class="nav-links">
-        <a href="#about-me">ABOUT ME</a>
-        <a href="#portfolio">PORTFOLIO</a>
-        <a href="#contacts">CONTACT</a>
-      </div>
-    
-  </header>
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Nathan</span><br> a Software Developer<br>from the Cotswolds</h1>
 
-  <!-- ABOUT ME SECTION -->
+                    <a href="#work" class="button">See my work</a>
+                </div>
 
-  <section id="about-me" class="about-me-section">
-    <article class="about-me-text">
-      <h2>Hey, I'm Nathan. Here's a little bit about me . . .</h2>
-      <p>I'm a 90's kid delving into the world of programming. I love learning about new technologies, watching football, playing Xbox and eating good food! </p>
-      <p>I used to work as an Account Manager in central London for a number of years, I knew I wanted to change career and began learning to code. After learning the basics of HTML, CSS and JavaScript. I secured a place on the March 2021 cohort of
-        the Full Stack Track at the iO Academy - a 16 week full-time immersive course. During this time I'll develop my knowledge in the following areas: HTML5, CSS3, Git, GitHub, JavaScript, PHP, SQL, Node.js, Object Orientated Programming, RWD,
-        Sass, PWA, while also earning a certification as a Scrum Master.</p>
-    </article>
-    <div class="about-me-icons">
-      <i class="fab fa-html5"></i>
-      <i class="fab fa-css3-alt"></i>
-      <i class="fab fa-js-square"></i>
-      <i class="fab fa-php"></i>
-      <i class="fab fa-node"></i>
-      <i class="fab fa-sass"></i>
-      <i class="fab fa-git"></i>
-      <i class="fab fa-github"></i>
-    </div>
-  </section>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/nathanmuran/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/nacm1269" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
 
-  <!-- PORTFOLIO SECTION -->
+<!--                <div class="home__img">-->
+<!--                    <img src="images/coding.svg" alt="a graphic of a person coding">-->
+<!--                </div>-->
+            </section>
 
-  <section id="portfolio" class="portfolio">
-    <h2 class="portfolio-title">Here's a few of the projects I'm working on . . .</h2>
-    <article class="project-article">
-      <img class="project-image" src="https://www.fillmurray.com/300/200" alt="project image 1">
-      <h3>Project 1</h3>
-      <p class="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </article>
-    <article class="project-article">
-      <img class="project-image" src="https://www.fillmurray.com/300/200" alt="project image 2">
-      <h3>Project 2</h3>
-      <p class="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </article>
-    <article class="project-article">
-      <img class="project-image" src="https://www.fillmurray.com/300/200" alt="project image 3">
-      <h3>Project 3</h3>
-      <p class="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </article>
-    <article class="project-article">
-      <img class="project-image" src="https://www.fillmurray.com/300/200" alt="project image 4">
-      <h3>Project 4</h3>
-      <p class="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </article>
-    <article class="project-article">
-      <img class="project-image" src="https://www.fillmurray.com/300/200" alt="project image 5">
-      <h3>Project 5</h3>
-      <p class="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </article>
-    <article class="project-article">
-      <img class="project-image" src="https://www.fillmurray.com/300/200" alt="project image 6">
-      <h3>Project 6</h3>
-      <p class="portfolio-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </article>
-  </section>
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/coding.svg" alt="a graphic of a person coding">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Nathan</h2>
+                        <p class="about__text">Recently, I graduated from iO Academy’s Full-Stack Track course, where I learnt the fundamentals
+                            of programming. I developed a solid grounding in JavaScript, PHP, React, Node.js, and became a Certified Scrum Master.</p><br>
+                        <p class="about__text">I'm an easy going, collaborative person and I very much enjoy working as part of a team. I enjoy travelling and discovering new places, my most recent trip was to Italy. I'm also a keen sports follower, gamer and love learning about new tech.</p>
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+<!--            <section class="skills section" id="skills">-->
+<!--                <h2 class="section-title">Skills</h2>-->
+
+<!--                <div class="skills__container bd-grid">          -->
+<!--                    <div>-->
+<!--                        <h2 class="skills__subtitle">Profesional Skills</h2>-->
+<!--                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>-->
+<!--                        <div class="skills__data">-->
+<!--                            <div class="skills__names">-->
+<!--                                <i class='bx bxl-html5 skills__icon'></i>-->
+<!--                                <span class="skills__name">HTML5</span>-->
+<!--                            </div>-->
+<!--                            <div class="skills__bar skills__html">-->
+
+<!--                            </div>-->
+<!--                            <div>-->
+<!--                                <span class="skills__percentage">95%</span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="skills__data">-->
+<!--                            <div class="skills__names">-->
+<!--                                <i class='bx bxl-css3 skills__icon'></i>-->
+<!--                                <span class="skills__name">CSS3</span>-->
+<!--                            </div>-->
+<!--                            <div class="skills__bar skills__css">-->
+<!--                                -->
+<!--                            </div>-->
+<!--                            <div>-->
+<!--                                <span class="skills__percentage">85%</span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="skills__data">-->
+<!--                            <div class="skills__names">-->
+<!--                                <i class='bx bxl-javascript skills__icon' ></i>-->
+<!--                                <span class="skills__name">JAVASCRIPT</span>-->
+<!--                            </div>-->
+<!--                            <div class="skills__bar skills__js">-->
+<!--                                -->
+<!--                            </div>-->
+<!--                            <div>-->
+<!--                                <span class="skills__percentage">65%</span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="skills__data">-->
+<!--                            <div class="skills__names">-->
+<!--                                <i class='bx bxs-paint skills__icon'></i>-->
+<!--                                <span class="skills__name">UX/UI</span>-->
+<!--                            </div>-->
+<!--                            <div class="skills__bar skills__ux">-->
+<!--                                -->
+<!--                            </div>-->
+<!--                            <div>-->
+<!--                                <span class="skills__percentage">85%</span>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    -->
+<!--                    <div>              -->
+<!--                        <img src="assets/img/work3.jpg" alt="" class="skills__img">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </section>-->
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href="https://2021-mar-restaurant-fe.dev.io-academy.uk/">
+                        <img src="assets/img/bonAppTile.png" alt="React project image">
+                        </a>
+                        <h4>React & Node.js web app</h4>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://portal.dev.io-academy.uk/">
+                        <img src="assets/img/ioStudPortTile.png" alt="">
+                        </a>
+                        <h4>OOP PHP project using Slim & MVC design pattern</h4>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://aptitude-test.dev.io-academy.uk/index.html">
+                        <img src="assets/img/ioAptTestTile.png" alt="">
+                        </a>
+                        <h4>Typescript and Sass project</h4>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://dev.io-academy.uk/projects/2021-march/fetch/">
+                        <img src="assets/img/fetchTile.png" alt="">
+                        </a>
+                        <h4>OOP PHP web app</h4>
+                    </div>
+                    <div class="work__img">
+                        <a href="https://dev.io-academy.uk/projects/2021-march/scrumble/">
+                        <img src="assets/img/scrumbleTile.png" alt="">
+                        </a>
+                        <h4>JavaScript anagram game</h4>
+                    </div>
+<!--                    <div class="work__img">-->
+<!--                        <img src="assets/img/work6.jpg" alt="">-->
+<!--                    </div>-->
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="mailto:nathanmuran21@gmail.com" class="contact__form" method="post" enctype="text/plain">
+                        <input type="text" name="name" placeholder="Name" class="contact__input">
+                        <input type="text" name="mail" placeholder="Email" class="contact__input">
+                        <textarea name="message" id="mail__message" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Enter" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Connect with me</p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/nathanmuran/" class="footer__icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/nacm1269" class="footer__icon"><i class='bx bxl-github' ></i></a>
+<!--                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>-->
+            </div>
+            <p>&#169; 2021 copyright</p>
+        </footer>
 
 
-  <!-- CONTACTS SECTION -->
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-  <footer id="contacts" class="contacts-section">
-    <div class="contacts-container">
-      <h3 class="contact-me">Contact Me:</h3>
-      <div class="contact-links">
-        <a class="email-address" href="nacmuran@gmail.com">nacmuran@gmail.com</a>
-        <a href="https://www.linkedin.com/in/nathanmuran/" <i class="fab fa-linkedin"></i></a>
-        <a href="https://github.com/nacm1269" <i class="fab fa-github"></i></a>
-        <a href="https://dev.to/natmur" <i class="fab fa-dev"></i></a>
-      </div>
-      <!-- add copyright logo here -->
-      <p class="copyright-text">© Copyright Nathan Muran 2021</p>
-
-    </div>
-  </footer>
-
-
-
-</body>
-
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
