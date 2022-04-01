@@ -47,8 +47,8 @@ sr.reveal('.about__text',{delay: 400});
 /*SCROLL WORK*/
 sr.reveal('.work__img',{interval: 200}); 
 
-/*SCROLL CONTACT*/
-sr.reveal('.contact__input',{interval: 200}); 
+// /*SCROLL CONTACT*/
+// sr.reveal('.contact__input',{interval: 200}); 
 
 
 
